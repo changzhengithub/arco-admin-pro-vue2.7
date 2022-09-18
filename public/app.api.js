@@ -1,0 +1,1 @@
+window.api = 'http://' + location.hostname + ':8081'; // 生产环境  自动获取部署地址

@@ -1,0 +1,34 @@
+/* 
+  arco design 修改默认样式
+  针对一些弹窗无法直接在当前文件更改的组件，只能在全局添加重置样式才能生效。
+  在当前css文件中先自定义CSS类名，赋值给组件，然后在当前自定义类名下覆盖组件类名下的样式。
+*/
+
+/* modal标题居左显示 */
+.modal-title {
+  width: 100%;
+  text-align: left;
+}
+
+/* 对话框内容0 padding */
+.modal-0 .arco-modal-body {
+  padding: 0;
+}
+
+/* 抽屉内容0 padding */
+.drawer-0 .arco-drawer-body {
+  padding: 0;
+}
+
+/* 选中成员组件对话框样式 */
+.member-modal .arco-modal-header {
+  border-bottom: none;
+}
+
+.member-modal .arco-modal-body {
+  padding: 16px 20px 0 20px;
+}
+
+.member-modal .arco-modal-footer {
+  border-top: none;
+}
